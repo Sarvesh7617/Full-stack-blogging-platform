@@ -25,3 +25,13 @@ A dynamic full-stack blogging platform built with **React.js** and **Appwrite**,
 
 **Deployment**  
 - Vercel
+
+
+## ✨ Features
+
+- 🔐 User Authentication (Sign Up / Login / Logout)
+- 📝 Rich Text Editor with TinyMCE
+- 📷 Image Upload & Preview
+- ✏️ Create, Edit, and Delete Posts
+- 🔒 Protected Routes for Authenticated Users
+- 📦 Appwrite Integration for Database & File Storage
