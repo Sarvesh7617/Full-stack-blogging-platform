@@ -46,53 +46,47 @@ To run this project locally:
 
 To run this project locally:
 
-1. Clone the repository:
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/Sarvesh7617/Full-stack-blogging-platform.git
    ```
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
 
    ```bash
    cd your-portfolio
    ```
 
-3. Install dependencies:
+3. **Install dependencies:**
 
    ```bash
    npm install
    ```
 
+4. **⚙️ Configuration**
 
-4. #### ⚙️ Configuration
+   To get started, follow these steps to configure Appwrite:
 
-To get started, follow these steps to configure Appwrite:
+   1. **Create a Project** in the Appwrite Console.
 
-1. **Create a Project** in Appwrite Console.
+   2. **Set Up Services:**
+      - 🗃️ **Database:** Create a collection for storing posts.
+      - 🖼️ **Storage:** Enable file storage for image uploads.
 
-2. **Set Up Services**:
-   
-   - 🗃️ **Database** 
-     Create a collection for storing posts.
-     
-   - 🖼️ **Storage**  
-     Enable file storage for image uploads.
+5. **🔐 Environment Variables**
 
+   Create a `.env` file in the root of your project and add your Appwrite credentials:
 
-5. ### 🔐 Environment Variables
-   
-1. Create a `.env` file in the root of your project and add your Appwrite credentials:
+   ```env
+   VITE_APPWRITE_ENDPOINT=your-endpoint
+   VITE_APPWRITE_PROJECT_ID=your-project-id
+   VITE_APPWRITE_DATABASE_ID=your-database-id
+   VITE_APPWRITE_BUCKET_ID=your-bucket-id
+   ```
 
-```env
-VITE_APPWRITE_ENDPOINT=your-endpoint
-VITE_APPWRITE_PROJECT_ID=your-project-id
-VITE_APPWRITE_DATABASE_ID=your-database-id
-VITE_APPWRITE_BUCKET_ID=your-bucket-id
-```
+6. **Run the development server:**
 
-6. Install dependencies
-
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
