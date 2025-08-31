@@ -35,3 +35,49 @@ A dynamic full-stack blogging platform built with **React.js** and **Appwrite**,
 - ✏️ Create, Edit, and Delete Posts
 - 🔒 Protected Routes for Authenticated Users
 - 📦 Appwrite Integration for Database & File Storage
+
+
+
+## 🛠️ Installation
+
+To run this project locally:  
+
+1️. Clone the repository:  
+```bash
+git clone https://github.com/Sarvesh7617/Full-stack-blogging-platform.git
+```
+2. Navigate to the project directory:
+```bash
+cd your-portfolio
+```
+3. Install dependencies
+```bash
+npm install
+```
+
+#### ⚙️ Configuration
+
+To get started, follow these steps to configure Appwrite:
+
+1. **Create a Project** in Appwrite Console.
+
+2. **Set Up Services**:
+   - 🗃️ **Database**: Create a collection for storing posts.
+   - 🖼️ **Storage**: Enable file storage for image uploads.
+
+
+### 🔐 Environment Variables
+
+4. Create a `.env` file in the root of your project and add your Appwrite credentials:
+
+```env
+VITE_APPWRITE_ENDPOINT=your-endpoint
+VITE_APPWRITE_PROJECT_ID=your-project-id
+VITE_APPWRITE_DATABASE_ID=your-database-id
+VITE_APPWRITE_BUCKET_ID=your-bucket-id
+```
+
+5. Install dependencies
+```bash
+npm run dev
+```
