@@ -1,20 +1,11 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Full-stack-blogging-platform
-=======
-# React + Vite
+## 📝 Full-Stack Blogging Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic full-stack blogging platform built with **React.js** and **Appwrite**, enabling users to create, edit, and manage blog posts with rich text formatting and image uploads. Designed for responsiveness and deployed on **Vercel** for fast performance.
 
-Currently, two official plugins are available:
+#### 🏠 Homepage
+![Homepage]<img width="1918" height="972" alt="Screenshot 2025-08-31 225508" src="https://github.com/user-attachments/assets/18663109-dbd2-45bb-a250-362fdec62d65" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+#### 📄 Blog Post View
+![Post View]<img width="1919" height="964" alt="Screenshot 2025-08-31 225729" src="https://github.com/user-attachments/assets/b82c0c36-c674-43c8-983a-052331a22e81" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> a09d1e3 (First commit)
-=======
-# hello
->>>>>>> d8511d6e3d2d47610403e65b556cf4e60f071a1a
