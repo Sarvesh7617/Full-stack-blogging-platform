@@ -41,19 +41,29 @@ A dynamic full-stack blogging platform built with **React.js** and **Appwrite**,
 ## 🛠️ Installation
 
 To run this project locally:  
-```md
-1️. Clone the repository:
-```bash
-git clone https://github.com/Sarvesh7617/Full-stack-blogging-platform.git
-```
+
+## 🛠️ Installation
+
+To run this project locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Sarvesh7617/Full-stack-blogging-platform.git
+   ```
+
 2. Navigate to the project directory:
-```bash
-cd your-portfolio
-```
-3. Install dependencies
-```bash
-npm install
-```
+
+   ```bash
+   cd your-portfolio
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
 
 4. #### ⚙️ Configuration
 
