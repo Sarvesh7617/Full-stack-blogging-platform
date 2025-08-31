@@ -72,12 +72,12 @@ To get started, follow these steps to configure Appwrite:
 1. **Create a Project** in Appwrite Console.
 
 2. **Set Up Services**:
-   - 🗃️ **Database**  
+   
+   - 🗃️ **Database** 
      Create a collection for storing posts.
+     
    - 🖼️ **Storage**  
      Enable file storage for image uploads.
-   - 🔐 **Authentication**  
-     Enable Email/Password authentication for user login.
 
 
 5. ### 🔐 Environment Variables
@@ -92,6 +92,7 @@ VITE_APPWRITE_BUCKET_ID=your-bucket-id
 ```
 
 6. Install dependencies
+
 ```bash
 npm run dev
 ```
