@@ -54,7 +54,6 @@ cd your-portfolio
 ```bash
 npm install
 ```
-```
 
 4. #### ⚙️ Configuration
 
