@@ -55,20 +55,24 @@ cd your-portfolio
 npm install
 ```
 
-#### ⚙️ Configuration
+4. #### ⚙️ Configuration
 
 To get started, follow these steps to configure Appwrite:
 
 1. **Create a Project** in Appwrite Console.
 
 2. **Set Up Services**:
-   - 🗃️ **Database**: Create a collection for storing posts.
-   - 🖼️ **Storage**: Enable file storage for image uploads.
+   - 🗃️ **Database**  
+     Create a collection for storing posts.
+   - 🖼️ **Storage**  
+     Enable file storage for image uploads.
+   - 🔐 **Authentication**  
+     Enable Email/Password authentication for user login.
 
 
-### 🔐 Environment Variables
+5. ### 🔐 Environment Variables
 
-4. Create a `.env` file in the root of your project and add your Appwrite credentials:
+1. Create a `.env` file in the root of your project and add your Appwrite credentials:
 
 ```env
 VITE_APPWRITE_ENDPOINT=your-endpoint
@@ -77,7 +81,7 @@ VITE_APPWRITE_DATABASE_ID=your-database-id
 VITE_APPWRITE_BUCKET_ID=your-bucket-id
 ```
 
-5. Install dependencies
+6. Install dependencies
 ```bash
 npm run dev
 ```
