@@ -65,7 +65,7 @@ const SignUp=()=>{
                             {...register('email',{
                                 required:"Please enter email",
                                 validate:{
-                                    matchPatern:(value)=>/^([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}$/igm.test(value)||
+                                    matchPattern:(value)=>/^([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}$/igm.test(value)||
                                     "Email address must be a valid address"
                                 }
                             })}
@@ -76,7 +76,21 @@ const SignUp=()=>{
                             type='password'
                             placeholder="Enter your password"
                             {...register("password",{
-                                required:"Please enter password"
+                                required:"Please enter password",
+                                minLength: {
+                                    value: 8,
+                                    message: "Password must be at least 8 characters long"
+                                  },
+                                  maxLength: {
+                                    value: 265,
+                                    message: "Password must not exceed 265 characters"
+                                  },
+                                  validate: {
+                                    notCommon: (value) => {
+                                      const commonPasswords = ["password", "12345678", "qwerty", "11111111"];
+                                      return !commonPasswords.includes(value) || "Please choose a stronger password";
+                                    },
+                                }
                             })}
                         />
                         {errors.password && (<p className={`text-red-500 text-sm -mt-4 ${errors.password.message?"":"-mt-4"}`}>{errors.password.message}</p>)}
