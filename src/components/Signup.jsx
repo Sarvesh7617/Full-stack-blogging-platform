@@ -77,20 +77,20 @@ const SignUp=()=>{
                             placeholder="Enter your password"
                             {...register("password",{
                                 required:"Please enter password"
-                                // minLength: {
-                                //     value: 8,
-                                //     message: "Password must be at least 8 characters long"
-                                //   },
-                                //   maxLength: {
-                                //     value: 265,
-                                //     message: "Password must not exceed 265 characters"
-                                //   },
-                                //   validate: {
-                                //     notCommon: (value) => {
-                                //       const commonPasswords = ["password", "12345678", "qwerty", "11111111"];
-                                //       return !commonPasswords.includes(value) || "Please choose a stronger password";
-                                //     },
-                                // }
+                                minLength: {
+                                    value: 8,
+                                    message: "Password must be at least 8 characters long"
+                                  },
+                                  maxLength: {
+                                    value: 265,
+                                    message: "Password must not exceed 265 characters"
+                                  },
+                                  validate: {
+                                    notCommon: (value) => {
+                                      const commonPasswords = ["password", "12345678", "qwerty", "11111111"];
+                                      return !commonPasswords.includes(value) || "Please choose a stronger password";
+                                    },
+                                }
                             })}
                         />
                         {errors.password && (<p className={`text-red-500 text-sm -mt-4 ${errors.password.message?"":"-mt-4"}`}>{errors.password.message}</p>)}
