@@ -76,7 +76,7 @@ const SignUp=()=>{
                             type='password'
                             placeholder="Enter your password"
                             {...register("password",{
-                                required:"Please enter password"
+                                required:"Please enter password",
                                 minLength: {
                                     value: 8,
                                     message: "Password must be at least 8 characters long"
