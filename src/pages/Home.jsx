@@ -22,6 +22,10 @@ const Home=()=>{
             })
     },[])
 
+
+    window.scrollTo(0, 0);
+
+
     if (posts.length===0)
     {
         return (
